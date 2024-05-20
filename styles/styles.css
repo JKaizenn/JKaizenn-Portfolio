@@ -1,0 +1,22 @@
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+
+header{
+    justify-content: center;
+    font-size: large;
+}
+
+nav {
+    padding: 10px;
+
+}
+
+.card {
+    border: 2px;
+    box-sizing: border-box;
+    box-shadow: 10px;
+
+}
