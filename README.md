@@ -53,6 +53,6 @@ This is the personal portfolio for Jessen Forbush, created to showcase various s
 ## Contact
 
 For any inquiries, please contact:
-- **Email**: [jessen@example.com](mailto:jessen@example.com)
-- **LinkedIn**: [linkedin.com/in/jessenforbush](https://linkedin.com/in/jessenforbush)
+- **Email**: [jessenforbush@gmail.com](mailto:jessenforbush@gmail.com)
+- **LinkedIn**: [linkedin.com/in/jessenforbush]([https://linkedin.com/in/jessenforbush](https://www.linkedin.com/in/jessen-forbush/))
 
