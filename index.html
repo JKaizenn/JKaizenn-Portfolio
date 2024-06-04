@@ -10,11 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="scripts/footer-date.js" defer></script>
+    <script src="scripts/footer-date.js" defer></script>
     <script src="scripts/github-repos.js" defer></script>
 </head>
 
 <body>
     <header>
+        <img src="images/logo.jpg" alt="JF Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="about.html">About Me</a></li>
@@ -40,10 +42,31 @@
         </section>
         <section class="projects">
             <h2>Projects</h2>
-            <ul id="project-list"></ul>
+            <ul id="project-list">
+                <li>
+                    <h3><a href="https://jkaizenn.github.io/wdd131/index.html" target="_blank">Homepage Assignment</a></h3>
+                    <p>This project involves creating a basic homepage using HTML and CSS to demonstrate fundamental web development skills.</p>
+                </li>
+                <li>
+                    <h3><a href="https://jkaizenn.github.io/wdd131/temples.html" target="_blank">Temples Assignment</a></h3>
+                    <p>This assignment focuses on creating a page to display information about temples, incorporating HTML, CSS, and JavaScript.</p>
+                </li>
+                <li>
+                    <h3><a href="https://jkaizenn.github.io/wdd131/filtered-temples.html" target="_blank">Filtered Temples Assignment</a></h3>
+                    <p>This project extends the temples assignment by adding filtering functionality to the temple data, using JavaScript to create an interactive user experience.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="project-images">
+            <h2>Project Images</h2>
+            <div class="image-container">
+                <img src="images/Homepage.png" alt="Homepage" loading="lazy">
+                <img src="images/Temples.png" alt="Temples" loading="lazy">
+                <img src="images/Filtered-Temples.png" alt="Filtered Temples" loading="lazy">
+            </div>
         </section>
         <section class="github-repos">
-            <h2>Pinned GitHub Repositories</h2>
+            <h2>GitHub Repositories</h2>
             <ul id="repo-list"></ul>
         </section>
     </main>

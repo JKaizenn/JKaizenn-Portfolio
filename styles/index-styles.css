@@ -11,6 +11,7 @@ header {
     padding: 1.5em;
     color: white;
     text-align: center;
+    position: relative;
 }
 
 nav ul {
@@ -58,6 +59,15 @@ h1 {
     transform: scale(1.05);
 }
 
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 main {
     padding: 2em;
     max-width: 1200px;
@@ -73,7 +83,8 @@ section {
 }
 
 .projects,
-.github-repos {
+.github-repos,
+.project-images {
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 2em;
@@ -100,6 +111,26 @@ section {
 
 .github-repos a:hover {
     color: #314157;
+}
+
+.project-images .image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-images .image-container img {
+    max-width: 30%;
+    height: auto;
+    margin: 1em;
+    border: 2px solid #3a506b;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-images .image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
