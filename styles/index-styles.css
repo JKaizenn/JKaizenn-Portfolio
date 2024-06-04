@@ -12,6 +12,9 @@ header {
     color: white;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav ul {
@@ -20,6 +23,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -46,6 +50,8 @@ nav ul li a:hover {
 h1 {
     margin: 0;
     font-size: 2.5em;
+    margin-top: 1em;
+    /* Adjust margin as needed for spacing */
 }
 
 .header-link {
@@ -60,12 +66,10 @@ h1 {
 }
 
 .logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-bottom: 1em;
 }
 
 main {
@@ -141,4 +145,29 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        padding: 1em;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
 }

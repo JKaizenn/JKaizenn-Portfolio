@@ -1,10 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const lastUpdated = document.getElementById("last-updated");
-    const lastModified = document.getElementById("last-modified");
+  const lastUpdated = document.getElementById("last-updated");
+  const lastModified = document.getElementById("last-modified");
 
-    const now = new Date();
-    lastUpdated.textContent = now.toDateString();
+  const options = { year: "numeric", month: "long", day: "numeric" };
+  const date = new Date(document.lastModified);
 
-    const lastMod = new Date(document.lastModified);
-    lastModified.textContent = lastMod.toDateString();
+  if (lastUpdated) {
+    lastUpdated.textContent = date.toLocaleDateString("en-US", options);
+  }
+  if (lastModified) {
+    lastModified.textContent = date.toLocaleDateString("en-US", options);
+  }
 });
