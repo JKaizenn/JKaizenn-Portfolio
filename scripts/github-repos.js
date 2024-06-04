@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h3><a href="${repo.html_url}" target="_blank">${
             repo.name
           }</a></h3>
-                        <p>${repo.description || "No description provided."}</p>
+
                     `;
           repoList.appendChild(listItem);
         });
